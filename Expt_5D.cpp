@@ -59,3 +59,17 @@ int main()
 
     return 0;
 }
+
+/* Output
+
+(1) Addition
+(2) Subtraction
+(3) Multiplication
+(4) Division
+Enter a choice: 1
+
+Enter the first number: 5
+Enter the second number: -3
+The addition of 5 and -3 is 2
+
+*/
