@@ -27,3 +27,17 @@ int main() {
 
     return 0;
 }
+
+/* Output
+
+Enter first number: 2
+Enter second number: 5
+Enter third number: 4
+5 is the largest number
+
+Enter first number: 6
+Enter second number: 3
+Enter third number: 1
+6 is the largest number
+
+*/
