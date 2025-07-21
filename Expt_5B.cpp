@@ -21,3 +21,13 @@ int main() {
 
     return 0;
 }
+
+/* Output
+
+Enter a character: a
+The given character a is a vowel
+
+Enter a character: r
+The given character r is a consonant
+
+*/
