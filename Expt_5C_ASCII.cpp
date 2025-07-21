@@ -28,3 +28,13 @@ int main() {
 
     return 0;
 }
+
+/* Output
+
+Enter a character: a
+a is a vowel
+
+Enter a character: 4
+4 is not an alphabetic character
+
+*/
