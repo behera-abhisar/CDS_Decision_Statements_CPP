@@ -16,3 +16,13 @@ int main() {
 
     return 0;
 }
+
+/* Output
+
+Enter a number: 5
+The given number 5 is ODD
+
+Enter a number: 6
+The given number 6 is EVEN
+
+*/
