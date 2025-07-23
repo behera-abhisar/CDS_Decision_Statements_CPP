@@ -107,7 +107,7 @@ This program uses a simple approach:
       Print "consonant"
 10. End
 
-### CONCLUSION
+## CONCLUSION
 I wrote a C++ program to check if a given character is a vowel or consonant using arrays and conditional logic. This experiment strengthened my understanding of character handling and loops in C++.
 
 # EXPERIMENT 05(D): SIMPLE CALCULATOR USING SWITCH STATEMENT IN C++
