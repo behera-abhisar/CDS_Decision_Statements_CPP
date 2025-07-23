@@ -101,10 +101,10 @@ This program uses a simple approach:
 5. Declare a character array containing all vowels
 6. Use a for loop to compare the input character with each element of the array
 7. If a match is found:
-   Print "vowel"
+   - Print "vowel"
 9. Terminate the program
 10. If no match is found after the loop:
-    Print "consonant"
+    - Print "consonant"
 12. End
 
 ## CONCLUSION
