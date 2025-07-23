@@ -58,7 +58,7 @@ This logic ensures that the largest number is correctly identified using simple 
 For inputs `num1 = 4`, `num2 = 9`, `num3 = 2`,  
 Output will be **9 is the largest number**
 
-## ALGORITHM
+### ALGORITHM
 1. Start  
 2. Declare three integer variables: `num_1`, `num_2`, `num_3`  
 3. Prompt the user to input three numbers  
@@ -100,7 +100,7 @@ The leap year rule is:
 - `1900` : Not a leap year (divisible by 100 but not 400)  
 - `2024` : Leap year (divisible by 4 but not by 100)
 
-## ALGORITHM
+### ALGORITHM
 1. Start  
 2. Declare an integer variable `year`  
 3. Prompt the user to enter a year  
@@ -145,7 +145,7 @@ Each case handles one operation, and `break` prevents fall-through to other case
 - Division should use `float` type for precise decimal output.
 - Typecasting is used for floating-point division.
 
-## ALGORITHM
+### ALGORITHM
 1. Start  
 2. Declare necessary variables: `choice`, `num_1`, `num_2`, and result variables  
 3. Display the operation menu  
