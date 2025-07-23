@@ -72,51 +72,43 @@ Output will be **9 is the largest number**
 ## CONCLUSION
 I wrote a C++ program to find the largest of three numbers using conditional statements. This experiment enhanced my understanding of nested `if-else` structures and logical comparison in C++.
 
-# EXPERIMENT 05(C): CHECKING WHETHER A YEAR IS A LEAP YEAR IN C++
+# EXPERIMENT 05(C): CHECKING WHETHER A CHARACTER IS A VOWEL OR CONSONANT IN C++
 
 ## AIM
-To write a C++ program that checks whether a given year is a leap year or not.
+To write a C++ program that determines whether a given character is a **vowel** or **consonant**.
 
 ## TOOLS USED
 - **Language**: C++
 - **Compiler**: g++ (GNU Compiler Collection)
-- **Platform**: Linux / Windows / macOS (any system with a C++ compiler)
+- **Platform**: Linux / Windows / macOS
 - **Editor/IDE**: Visual Studio Code / Code::Blocks / Terminal-based editor
 
 ## THEORY
-A **leap year** occurs every 4 years and has 366 days instead of the regular 365. The extra day is added to the month of February (29 days instead of 28).  
-The leap year rule is:
-- If a year is divisible by 4, it **might** be a leap year.
-- But if it is also divisible by 100, it is **not** a leap year,
-- Unless it is also divisible by 400, in which case **it is** a leap year.
+In the English alphabet, the vowels are: `a`, `e`, `i`, `o`, `u` (both lowercase and uppercase).  
+Any alphabet that is not a vowel is considered a **consonant**.
 
-### Conditions:
-- Year % 4 == 0 : Possible leap year  
-- Year % 100 == 0 : Not a leap year  
-- Year % 400 == 0 : Definitely a leap year
-
-### Example:
-- `2000` : Leap year (divisible by 400)  
-- `1900` : Not a leap year (divisible by 100 but not 400)  
-- `2024` : Leap year (divisible by 4 but not by 100)
+This program uses a simple approach:
+- The user enters a character.
+- The character is compared with an array of vowels.
+- If it matches, it is identified as a vowel.
+- Otherwise, it is a consonant.
 
 ### ALGORITHM
-1. Start  
-2. Declare an integer variable `year`  
-3. Prompt the user to enter a year  
-4. Use `cin` to take input  
-5. Use conditional checks:
-   - If `year % 4 == 0`  
-     - If `year % 100 == 0`  
-       - If `year % 400 == 0` → Leap Year  
-       - Else Not a Leap Year  
-     - Else Leap Year  
-   - Else Not a Leap Year  
-6. Display result  
-7. End
+1. Start
+2. Declare a character variable character
+3. Prompt the user to input a character
+4. Read the input using cin
+5. Declare a character array containing all vowels
+6. Use a for loop to compare the input character with each element of the array
+7. If a match is found:
+      Print "vowel"
+8. Terminate the program
+9. If no match is found after the loop:
+      Print "consonant"
+10. End
 
-## CONCLUSION
-I wrote a C++ program to determine if a given year is a leap year. This experiment helped me understand how to apply nested conditions and modular arithmetic to solve real-world calendar problems in code.
+### CONCLUSION
+I wrote a C++ program to check if a given character is a vowel or consonant using arrays and conditional logic. This experiment strengthened my understanding of character handling and loops in C++.
 
 # EXPERIMENT 05(D): SIMPLE CALCULATOR USING SWITCH STATEMENT IN C++
 
